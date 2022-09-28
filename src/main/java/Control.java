@@ -63,11 +63,13 @@ public class Control extends HttpServlet {
             out.println("<!DOCTYPE html>");
             out.println("<html>");
             out.println("<head>");
+            out.println("<style>body {background-color: powderblue;}</style>");
             out.println("<title>Servlet Control</title>");            
             out.println("</head>");
             out.println("<body>");
             out.println("<h1>el domicilio llego: "+n+" "+a+"</h1>");
             out.println("<h1>respuesta desde el control " + request.getContextPath() + "</h1>");
+            out.println("<img src=Do.jpg >");
             out.println("</body>");
             out.println("</html>");
         }
